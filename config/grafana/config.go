@@ -58,4 +58,5 @@ func Configure(p *ujconfig.Provider) {
 	configureSLO(p)
 	configureK6(p)
 	configureOnCall(p)
+	configureRotatingTokens(p)
 }
